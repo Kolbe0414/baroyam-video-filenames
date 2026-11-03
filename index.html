@@ -16,6 +16,9 @@
 @media(max-width:720px){.sidebar{position:static;width:100%;height:70px;flex-direction:row;align-items:center;padding:0 19px;border-right:0;border-bottom:1px solid var(--line);gap:20px}.brand{font-size:20px;gap:8px;letter-spacing:-1px;padding:0}.brand-mark{width:31px;height:31px;border-radius:8px;font-size:30px}.brand-mark>span{width:4px;height:4px;right:5px;top:5px}.brand-sub{font-size:6px;letter-spacing:2px}.workspace-label,.sidebar-note,.sidebar-bottom{display:none}.sidebar nav{display:flex;gap:6px;margin-left:auto}.nav-item{width:36px;height:36px;overflow:hidden;display:block;font-size:0;padding:9px;border:1px solid #e5eadc}.nav-item>svg{width:16px;height:16px}.nav-item.active{background:#edf4e7}.nav-dot,.nav-count{display:none}.app-shell{margin:0}.topbar{height:44px;padding:0 20px}.breadcrumb{font-size:8px}.breadcrumb span{margin:0 8px}.save-status{font-size:7px;gap:5px}.save-status i{width:4px;height:4px}main{padding:26px 19px 0}.page-heading{gap:8px;margin-bottom:25px}.eyebrow{font-size:7px;letter-spacing:1.3px}h1{font-size:23px;letter-spacing:-1.2px;margin-top:10px}.page-heading p{font-size:10px}.page-heading .outline-button{margin-top:20px}.type-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin-bottom:18px}.type-tab{min-height:85px;padding:12px 14px}.type-tab.selected{padding:11.5px 13.5px}.type-tab>svg{float:left;margin:1px 12px 12px 0;width:19px;height:19px}.type-tab strong{font-size:12px;margin-top:0}.type-tab small{font-size:8px;line-height:1.8;margin-top:5px}.type-tab .tab-check{right:12px;top:13px;width:13px;height:13px}.type-tab strong,.type-tab small{margin-left:31px}.work-grid{gap:16px}.form-panel{padding:21px}.fields-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:19px 13px}.form-intro{font-size:9px;margin-bottom:22px}.result-column{grid-template-columns:1fr}.preview-panel{position:relative;top:auto;padding:24px}.preview-panel h2{margin-top:22px}.filename{font-size:20px;min-height:65px}.preview-meta{font-size:9px}.copy-button{font-size:12px;height:46px}.structure-panel{padding:22px}.tree{font-size:11px}.tree-row{margin:10px 0}.rule-strip{padding:16px;gap:10px}.rule-strip h3{font-size:10px}.rule-strip p{font-size:8px}.rule-strip>button{font-size:8px}.rule-strip>button span{margin-left:0}footer{font-size:7px}footer>span:last-child{display:none}#toast{left:50%;font-size:11px}.modal-head{padding:22px 20px 17px}.modal-head h2{font-size:18px}.modal-body{padding:20px}.settings-controls{gap:10px}.calendar{width:280px}.field:nth-child(even) .calendar{left:auto;right:0}.settings-foot button{font-size:8px}.settings-foot>.done-button{margin-left:0}.template-add .add-row{flex-wrap:wrap}.template-add .add-row input{flex:1;min-width:150px}.template-row{padding:9px}.template-row button{width:24px}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 
+/* Optional naming fields and recorded filenames */
+.field-label{min-height:23px;gap:7px}.field-title{cursor:pointer;min-width:0;overflow-wrap:anywhere}.field-actions{display:flex;align-items:center;gap:6px;flex:none}.include-toggle{display:flex;align-items:center;gap:4px;cursor:pointer;color:#50703e;font-size:10px;font-weight:500;white-space:nowrap}.include-toggle input{width:13px;height:13px;margin:0;accent-color:#436c35;cursor:pointer}.include-toggle:has(input:not(:checked)){color:#929a8b}.field-edit{border:0;background:transparent;padding:2px;color:#96a28a;display:grid;place-items:center;border-radius:4px}.field-edit:hover{background:#edf4e7;color:#436c35}.field-edit svg.icon{width:13px;height:13px}.is-excluded .field-title{color:#939b8c}.is-excluded .combo input{background:#f3f4ef;color:#a0a697;border-color:#e5e8df}.is-excluded .date-button{background:#f3f4ef;opacity:.55}.is-excluded .field-hint{color:#a3aa98}.is-excluded .combo-toggle{opacity:.3}.empty-fields{grid-column:1/-1;font-size:12px;color:#8b987e;line-height:2;padding:12px;background:#f5f8f0;border-radius:8px}.danger-text{color:#a56b4f;margin-top:13px;font-size:11px;padding:9px 0}.duplicate-name{padding:17px;background:#fff7e8;border:1px solid #f0d8a9;color:#8a6129;border-radius:9px;font-size:14px;line-height:1.9;overflow-wrap:anywhere;margin-bottom:16px}.duplicate-actions{display:flex;justify-content:flex-end;gap:9px;margin-top:22px}.duplicate-actions button{min-height:39px}.history-search{border:1px solid #dce4d3;border-radius:8px;background:#fbfcf9;padding:12px 14px;font-size:12px;color:#4d6240;width:100%;margin-bottom:14px}.history-pagination{display:flex;justify-content:center;align-items:center;gap:16px;margin-top:20px;font-size:11px;color:#8b987d}.history-pagination:empty{display:none}.history-pagination button{font-size:10px;padding:8px 12px}.settings-controls .outline-button{height:38px}.form-intro{color:#7c8c6e}.field-hint{font-size:10px}.include-toggle:focus-within{outline:2px solid #83ac63;outline-offset:3px;border-radius:2px}
+@media(max-width:720px){.field-label{gap:5px}.include-toggle{font-size:9px}.field-actions{gap:5px}.field-title{font-size:11px}.field-edit svg.icon{width:12px;height:12px}.duplicate-actions{justify-content:stretch}.duplicate-actions button{flex:1}}
 </style>
 </head>
 <body>
@@ -24,7 +27,7 @@
     <div class="workspace-label">TEAM WORKSPACE <span>01</span></div>
     <nav aria-label="작업 메뉴">
       <button class="nav-item active" id="home-nav"><span data-icon="layers"></span>파일명 제작<span class="nav-dot"></span></button>
-      <button class="nav-item" id="history-nav"><span data-icon="history"></span>최근 만든 이름<span class="nav-count" id="history-count">0</span></button>
+      <button class="nav-item" id="history-nav"><span data-icon="history"></span>제작 기록<span class="nav-count" id="history-count">0</span></button>
       <button class="nav-item" id="settings-nav"><span data-icon="settings"></span>드롭다운 편집</button>
     </nav>
     <div class="sidebar-note"><span class="tiny-label">LESS TYPING. MORE CREATING.</span><p>좋은 작업의 시작,<br>잘 정리된 파일명.</p><div class="note-art" aria-hidden="true"><i></i><i></i><i></i><span>REC <b></b></span></div></div>
@@ -44,7 +47,7 @@
           <div class="fields-grid" id="fields"></div>
           <div id="camera-section"></div>
           <div id="extension-section"></div>
-          <div class="form-tip"><span data-icon="lightbulb"></span><p>목록에서 선택하거나 <strong>직접 입력</strong>하세요.<br>자주 쓰는 항목은 드롭다운 편집에서 추가할 수 있어요.</p></div>
+          <div class="form-tip"><span data-icon="lightbulb"></span><p><strong>포함</strong>을 체크한 항목만 파일명에 사용됩니다.<br>자주 쓰는 항목은 드롭다운 편집에서 추가할 수 있어요.</p></div>
         </section>
 
         <section class="result-column" aria-label="제작 결과">
@@ -59,7 +62,7 @@
           <div class="panel structure-panel" id="structure-panel"></div>
         </section>
       </div>
-      <section class="rule-strip"><span class="rule-icon" data-icon="link"></span><div><h3>일관된 이름, 매끄러운 협업</h3><p>선택한 항목은 밑줄(_)로 연결되고, 날짜는 YYMMDD 형식으로 정리돼요.</p></div><button id="rule-help">규칙 보기 <span>↗</span></button></section>
+      <section class="rule-strip"><span class="rule-icon" data-icon="link"></span><div><h3>일관된 이름, 매끄러운 협업</h3><p>체크한 항목은 밑줄(_)로 연결됩니다. 복사한 이름은 제작 기록에 자동 저장됩니다.</p></div><button id="rule-help">규칙 보기 <span>↗</span></button></section>
       <footer><span>BAROYAM <b>VIDEO TEAM</b></span><span>작업에 집중할 수 있도록, 이름은 간단하게.</span></footer>
     </main>
   </div>
@@ -78,7 +81,7 @@
     b: ['B01', 'B02', 'B03', 'B04', 'B05'],
     h: ['H01', 'H02', 'H03', 'H04', 'H05'],
     c: ['C01', 'C02', 'C03', 'C04', 'C05'],
-    version: ['v01', 'v02', 'v03', 'v04', 'v05'],
+    version: Array.from({length:10},(_,i)=>`v${String(i+1).padStart(2,'0')}`),
     worker: ['김재민'], camera: ['a7C2']
   };
   const labels = {date:'날짜',brand:'브랜드명',category:'촬영 유형',middle:'중간설명',final:'최종설명',title:'제목',appeal:'주소구',b:'B 코드',h:'H 코드',c:'C 코드',version:'버전',worker:'작업자',camera:'촬영 기기'};
@@ -99,7 +102,7 @@
     return String(value??'').normalize('NFC').replace(/[\\/:*?"<>|\x00-\x1f\x7f]/g,'-').replace(/_/g,'-').replace(/\s+/g,' ').trim().replace(/^[. ]+|[. ]+$/g,'');
   }
   function getInitial() {
-    return {options:clone(defaults),labels:clone(labels),templates:clone(templates),values:Object.fromEntries(Object.entries(defaults).map(([k,v])=>[k,v[0]])),cameras:['a7C2'],extensions:{folder:'',color:'',project:'',meta:''},type:'folder',history:[]};
+    return {schemaVersion:2,options:clone(defaults),labels:clone(labels),templates:clone(templates),included:{folder:{},color:{},project:{},meta:{}},values:Object.fromEntries(Object.entries(defaults).map(([k,v])=>[k,v[0]])),cameras:['a7C2'],extensions:{folder:'',color:'',project:'',meta:''},type:'folder',history:[]};
   }
   function validateSettings(data) {
     if (!data || typeof data!=='object' || !data.options || !data.labels || !data.templates) throw Error('설정 파일의 형식이 올바르지 않아요.');
@@ -112,25 +115,29 @@
     for(const k of Object.keys(defaults)) if(!keys.includes(k)) throw Error('기본 선택 목록이 누락되어 있어요.');
     for(const mode of Object.keys(templates)) {
       const arr=data.templates[mode];
-      if(!Array.isArray(arr)||arr.length<1||arr.length>20||new Set(arr).size!==arr.length||arr.some(k=>k!=='date'&&!keys.includes(k))) throw Error('이름 구성 규칙을 확인해 주세요.');
+      if(!Array.isArray(arr)||arr.length>20||new Set(arr).size!==arr.length||arr.some(k=>k!=='date'&&!keys.includes(k))) throw Error('이름 구성 규칙을 확인해 주세요.');
+      for(const k of arr) base.included[mode][k]=data.included?.[mode]?.[k]!==false;
     }
-    if(JSON.stringify(data.templates.folder)!==JSON.stringify(templates.folder)) throw Error('폴더명은 날짜와 브랜드명으로 구성해야 해요.');
     for(const k of keys){base.options[k]=[...new Set(data.options[k].map(v=>v.trim()).filter(Boolean))];base.labels[k]=data.labels[k].trim();base.values[k]=base.options[k][0]||'';}
+    if((data.schemaVersion||1)<2) for(const version of defaults.version.slice(5)) if(!base.options.version.includes(version))base.options.version.push(version);
     base.templates=clone(data.templates);
     return base;
   }
+  const isIncluded=(state,type,key)=>state.included?.[type]?.[key]!==false;
+  const activeFields=(state,type)=>state.templates[type].filter(k=>isIncluded(state,type,k));
   function build(state, type, date) {
-    const fields=state.templates[type], missing=[];
+    const fields=activeFields(state,type), missing=[];
     const parts=fields.map(k=>{
       const value=k==='date'?shortDate(date):clean(state.values[k]);
       if(!value) missing.push(state.labels[k]||labels[k]||k);
       return {key:k,value,display:value||`[${state.labels[k]||labels[k]||k}]`};
     });
     if(type==='folder') parts.push({key:'suffix',value:'촬영원본',display:'촬영원본'});
-    const ext=type==='folder'?'':(state.extensions[type]||'');
+    const ext=type==='folder'||!parts.length?'':(state.extensions[type]||'');
     const name=parts.map(p=>p.display).join('_')+ext;
     const byteLength=new TextEncoder().encode(name).length;
     const errors=[];
+    if(!parts.length) errors.push('파일명에 포함할 항목을 하나 이상 체크해 주세요.');
     if(missing.length) errors.push(`${missing.join(', ')} 항목을 입력해 주세요.`);
     if(byteLength>240) errors.push('이름이 너무 길어요. 한글 기준 약 80자 이내로 줄여 주세요.');
     return {name,parts,ext,missing,errors,byteLength,ready:errors.length===0};
@@ -139,8 +146,30 @@
     const rootName=build(state,'folder',date).name;
     const prefix=`${rootName}/`;
     const cameras=[...new Set(state.cameras.map(clean).filter(Boolean))];
-    const output=`${shortDate(date)}_${clean(state.values.brand)}_색보정`;
+    const output=outputFolderName(state,date);
     return [prefix,`${prefix}01_camera/`,...cameras.map(c=>`${prefix}01_camera/${c}/`),`${prefix}02_audio/`,`${prefix}98_project/`,`${prefix}99_output/`,`${prefix}99_output/${output}/`];
+  }
+  function outputFolderName(state,date) {
+    const parts=build(state,'folder',date).parts.filter(p=>p.key!=='suffix');
+    return [...parts.map(p=>p.display),'색보정'].join('_');
+  }
+  function normalizeHistory(input) {
+    if(!Array.isArray(input)) return [];
+    const records=new Map();
+    for(const h of input) {
+      if(!h||typeof h.name!=='string'||!h.name||h.name.length>=2000||!Object.hasOwn(templates,h.type)||!Number.isFinite(h.time))continue;
+      const name=h.name.normalize('NFC');
+      const item={name,type:h.type,time:h.time,lastCopied:Number.isFinite(h.lastCopied)?h.lastCopied:h.time,copies:Number.isSafeInteger(h.copies)&&h.copies>0?h.copies:1};
+      const prior=records.get(name);
+      if(!prior)records.set(name,item);
+      else{item.time=Math.min(prior.time,item.time);item.copies=Math.max(prior.copies,item.copies);if(prior.lastCopied>item.lastCopied){item.type=prior.type;item.lastCopied=prior.lastCopied;}records.set(name,item);}
+    }
+    return [...records.values()].sort((a,b)=>b.lastCopied-a.lastCopied);
+  }
+  const findRecorded=(history,name)=>history.find(h=>h.name.normalize('NFC')===name.normalize('NFC'));
+  function recordName(history,name,type,time=Date.now()) {
+    const items=normalizeHistory(history),prior=findRecorded(items,name);
+    return [{name:name.normalize('NFC'),type,time:prior?.time??time,lastCopied:time,copies:(prior?.copies||0)+1},...items.filter(h=>h!==prior)];
   }
   function increment(value) {
     return /\d+$/.test(value)?value.replace(/\d+$/,s=>String(Number(s)+1).padStart(s.length,'0')):null;
@@ -160,7 +189,7 @@
     w32(end,0,0x06054b50);w16(end,8,central.length);w16(end,10,central.length);w32(end,12,size);w32(end,16,offset);
     return new Blob([...entries,...central,end],{type:'application/zip'});
   }
-  root.Naming={defaults,labels,templates,clone,today,validDate,shortDate,clean,getInitial,validateSettings,build,folderPaths,increment,zipDirectories};
+  root.Naming={defaults,labels,templates,clone,today,validDate,shortDate,clean,getInitial,validateSettings,isIncluded,activeFields,build,folderPaths,outputFolderName,normalizeHistory,findRecorded,recordName,increment,zipDirectories};
 })(globalThis);
 
 </script>
@@ -173,8 +202,8 @@
   const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const meta={folder:{title:'폴더명',sub:'촬영 원본 · 폴더 구조',icon:'folder',badge:'FOLDER',intro:'촬영 날짜와 브랜드를 고르면, 촬영용 폴더 구조까지 한 번에 완성돼요.'},color:{title:'색보정 파일명',sub:'색보정을 마친 최종 소스',icon:'film',badge:'COLOR GRADED',intro:'촬영 유형과 장면 설명을 선택해 색보정이 완료된 소스 이름을 만드세요.'},project:{title:'프로젝트명',sub:'프리미어 편집 프로젝트',icon:'project',badge:'PROJECT',intro:'제목, 버전, 작업자를 정리해 프리미어 프로젝트 이름을 만드세요.'},meta:{title:'메타 업로드용',sub:'광고 소재 · B / H / C',icon:'upload',badge:'META UPLOAD',intro:'주소구와 B·H·C 코드를 선택해 업로드할 광고 소재 이름을 만드세요.'}};
   const hints={brand:'9개 브랜드 또는 직접 입력',category:'인서트 · 시즐 · 연출 등',middle:'예: 제품클로즈업, 조리과정',final:'예: 정면, 탑뷰, 슬로모션',title:'영상 또는 프로젝트의 제목',appeal:'광고의 핵심 소구 내용',b:'B01부터 선택 · 직접 입력 가능',h:'H01부터 선택 · 직접 입력 가능',c:'C01부터 선택 · 직접 입력 가능',version:'예: v01, v02',worker:'프로젝트를 작업한 이름'};
-  const KEY='baroyam-naming-v1';
-  let state=N.getInitial(),date=N.today(),storageBroken=false,loadBroken=false;
+  const KEY='baroyam-naming-v1',HISTORY_KEY='baroyam-naming-history-v1';
+  let state=N.getInitial(),date=N.today(),storageBroken=false,historyStorageBroken=false,loadBroken=false;
   try {
     const raw=localStorage.getItem(KEY);
     if(raw){const saved=JSON.parse(raw),valid=N.validateSettings(saved);state=valid;
@@ -182,16 +211,23 @@
       if(meta[saved.type])state.type=saved.type;
       if(Array.isArray(saved.cameras))state.cameras=[...new Set(saved.cameras.filter(v=>typeof v==='string'&&N.clean(v)&&v.length<150))].slice(0,50);
       for(const type of ['color','project','meta'])if(['','.mp4','.mov','.mxf','.prproj'].includes(saved.extensions?.[type]))state.extensions[type]=saved.extensions[type];
-      if(Array.isArray(saved.history))state.history=saved.history.filter(h=>h&&typeof h.name==='string'&&h.name.length<2000&&meta[h.type]&&Number.isFinite(h.time)).slice(0,20);
+      state.history=N.normalizeHistory(saved.history);
     }
   }catch(e){loadBroken=true;}
-  let toastTimer,comboKey=null,comboFocus=-1,calendarMonth=null,settingsTab='options',settingsKey='brand',settingsType=state.type;
-  const persist=()=>{
-    try{localStorage.setItem(KEY,JSON.stringify(state));storageBroken=false;}catch(e){storageBroken=true;}
-    $('#save-status').textContent=storageBroken?'저장 공간 확인 필요':'이 브라우저에 자동 저장';
-    $('#save-status').classList.toggle('storage-warning',storageBroken);
+  try{const archive=localStorage.getItem(HISTORY_KEY);if(archive!==null)state.history=N.normalizeHistory(JSON.parse(archive));else localStorage.setItem(HISTORY_KEY,JSON.stringify(state.history));}catch(e){historyStorageBroken=true;}
+  let toastTimer,comboKey=null,comboFocus=-1,calendarMonth=null,settingsTab='options',settingsKey='brand',settingsType=state.type,historyQuery='',historyPage=0,copyPending=false;
+  function updateSaveStatus(){
+    const broken=storageBroken||historyStorageBroken;
+    $('#save-status').textContent=broken?'저장 공간 확인 필요':'이 브라우저에 자동 저장';
+    $('#save-status').classList.toggle('storage-warning',broken);
     $('#history-count').textContent=state.history.length;
+  }
+  const persist=()=>{
+    try{const {history,...settings}=state;localStorage.setItem(KEY,JSON.stringify(settings));storageBroken=false;}catch(e){storageBroken=true;}
+    updateSaveStatus();
   };
+  function refreshHistory(){try{const raw=localStorage.getItem(HISTORY_KEY);if(raw!==null)state.history=N.normalizeHistory(JSON.parse(raw));}catch(e){historyStorageBroken=true;}updateSaveStatus();}
+  function saveHistory(){try{localStorage.setItem(HISTORY_KEY,JSON.stringify(state.history));historyStorageBroken=false;}catch(e){historyStorageBroken=true;}updateSaveStatus();return !historyStorageBroken;}
   function toast(message){$('#toast').textContent=message;$('#toast').classList.add('visible');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').classList.remove('visible'),2800);}
   function hydrateIcons(scope=document){scope.querySelectorAll('[data-icon]').forEach(el=>el.outerHTML=icon(el.dataset.icon));}
   function closePopovers(){ $$('.combo-menu,.calendar').forEach(el=>el.remove());$$('[aria-expanded="true"]').forEach(el=>el.setAttribute('aria-expanded','false'));$$('input[aria-activedescendant]').forEach(el=>el.removeAttribute('aria-activedescendant'));comboKey=null;comboFocus=-1; }
@@ -199,14 +235,23 @@
     $('#type-tabs').innerHTML=Object.entries(meta).map(([key,m])=>`<button class="type-tab ${state.type===key?'selected':''}" data-type="${key}" aria-pressed="${state.type===key}">${icon(m.icon)}${state.type===key?`<span class="tab-check">${icon('check')}</span>`:''}<strong>${m.title}</strong><small>${m.sub}</small></button>`).join('');
     $$('#type-tabs button').forEach(button=>button.onclick=()=>{closePopovers();state.type=button.dataset.type;persist();render();});
   }
+  function fieldHeader(key){
+    const label=esc(state.labels[key]||N.labels[key]),enabled=N.isIncluded(state,state.type,key);
+    return `<div class="field-label"><label class="field-title" ${key==='date'?'id="date-label"':`for="input-${key}"`}>${label}</label><span class="field-actions">${key==='date'?'':`<button class="field-edit" data-edit-list="${key}" aria-label="${label} 선택 항목 편집" title="선택 항목 편집">${icon('sliders')}</button>`}<label class="include-toggle"><input type="checkbox" data-include="${key}" aria-label="${label} 포함" ${enabled?'checked':''}><span>포함</span></label></span></div>`;
+  }
   function comboMarkup(key,index){
-    return `<div class="field" data-field="${key}"><label class="field-label" for="input-${key}"><span>${esc(state.labels[key])}</span><span class="field-index">${String(index+1).padStart(2,'0')}</span></label><div class="combo"><input type="text" id="input-${key}" data-key="${key}" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="list-${key}" aria-describedby="hint-${key}" autocomplete="off" maxlength="150" value="${esc(state.values[key]||'')}" placeholder="선택 또는 직접 입력"><button class="combo-toggle" data-key="${key}" aria-label="${esc(state.labels[key])} 목록 열기" tabindex="-1">${icon('chevron')}</button></div><div class="field-hint" id="hint-${key}">${esc(key==='brand'?`${state.options.brand.length}개 브랜드 · 직접 입력 가능`:hints[key]||'목록 선택 또는 직접 입력')}</div></div>`;
+    const enabled=N.isIncluded(state,state.type,key);
+    return `<div class="field ${enabled?'':'is-excluded'}" data-field="${key}">${fieldHeader(key)}<div class="combo"><input type="text" id="input-${key}" data-key="${key}" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="list-${key}" aria-describedby="hint-${key}" autocomplete="off" maxlength="150" value="${esc(state.values[key]||'')}" placeholder="선택 또는 직접 입력" ${enabled?'':'disabled'}><button class="combo-toggle" data-key="${key}" aria-label="${esc(state.labels[key])} 목록 열기" tabindex="-1" ${enabled?'':'disabled'}>${icon('chevron')}</button></div><div class="field-hint" id="hint-${key}"></div></div>`;
   }
   function dateMarkup(index){
-    return `<div class="field" data-field="date"><label class="field-label" id="date-label"><span>날짜</span><span class="field-index">${String(index+1).padStart(2,'0')}</span></label><button class="date-button" id="date-button" aria-labelledby="date-label date-value" aria-haspopup="dialog" aria-expanded="false"><span id="date-value">${N.shortDate(date)}</span>${icon('calendar')}</button><div class="field-hint">${date.replaceAll('-','.')} · 한국 시간 기준</div></div>`;
+    const enabled=N.isIncluded(state,state.type,'date');
+    return `<div class="field ${enabled?'':'is-excluded'}" data-field="date">${fieldHeader('date')}<button class="date-button" id="date-button" aria-labelledby="date-label date-value" aria-haspopup="dialog" aria-expanded="false" ${enabled?'':'disabled'}><span id="date-value">${N.shortDate(date)}</span>${icon('calendar')}</button><div class="field-hint">${enabled?`${date.replaceAll('-','.')} · 한국 시간 기준`:'파일명에서 제외됩니다.'}</div></div>`;
   }
   function renderFields(){
     $('#fields').innerHTML=state.templates[state.type].map((k,i)=>k==='date'?dateMarkup(i):comboMarkup(k,i)).join('');
+    if(!state.templates[state.type].length)$('#fields').innerHTML='<p class="empty-fields">등록된 항목이 없습니다. 드롭다운 편집 → 이름 구성 편집에서 추가해 주세요.</p>';
+    $$('[data-include]').forEach(input=>input.onchange=()=>{const key=input.dataset.include;closePopovers();state.included[state.type][key]=input.checked;persist();renderFields();renderResult();$(`[data-include="${key}"]`)?.focus();});
+    $$('[data-edit-list]').forEach(button=>button.onclick=()=>{settingsKey=button.dataset.editList;settingsType=state.type;settingsTab='options';openSettings();});
     $$('#fields .combo input').forEach(input=>{
       input.onfocus=()=>openCombo(input.dataset.key,false);
       input.oninput=()=>{state.values[input.dataset.key]=input.value;persist();openCombo(input.dataset.key,true);updateHint(input.dataset.key);renderResult();};
@@ -216,9 +261,9 @@
     if($('#date-button'))$('#date-button').onclick=()=>{if($('.calendar')){closePopovers();return;}closePopovers();calendarMonth=new Date(`${date}T12:00:00Z`);renderCalendar();};
     for(const k of state.templates[state.type])if(k!=='date')updateHint(k);
   }
-  function updateHint(key){const el=$(`#hint-${key}`);if(!el)return;const raw=String(state.values[key]||'');const changed=raw!==N.clean(raw)&&raw.trim()!=='';el.classList.toggle('changed',changed);el.textContent=changed?`정리된 값: ${N.clean(raw)||'입력이 필요해요'}`:key==='brand'?`${state.options.brand.length}개 브랜드 · 직접 입력 가능`:(hints[key]||'목록 선택 또는 직접 입력');}
+  function updateHint(key){const el=$(`#hint-${key}`);if(!el)return;if(!N.isIncluded(state,state.type,key)){el.classList.remove('changed');el.textContent='파일명에서 제외됩니다.';return;}const raw=String(state.values[key]||'');const changed=raw!==N.clean(raw)&&raw.trim()!=='';el.classList.toggle('changed',changed);el.textContent=changed?`정리된 값: ${N.clean(raw)||'입력이 필요해요'}`:key==='brand'?`${state.options.brand.length}개 브랜드 · 직접 입력 가능`:(hints[key]||'목록 선택 또는 직접 입력');}
   function openCombo(key,filter){
-    const input=$(`#input-${key}`);if(!input)return;const prior=comboKey===key;closePopovers();comboKey=key;
+    const input=$(`#input-${key}`);if(!input||input.disabled)return;closePopovers();comboKey=key;
     const query=filter?input.value.toLocaleLowerCase():'';const items=state.options[key].filter(v=>v.toLocaleLowerCase().includes(query));
     const menu=document.createElement('div');menu.className='combo-menu';menu.id=`list-${key}`;menu.setAttribute('role','listbox');menu.setAttribute('aria-label',`${state.labels[key]} 선택`);
     menu.innerHTML=items.length?items.map((v,i)=>`<button type="button" role="option" aria-selected="${v===input.value}" id="option-${key}-${i}" class="combo-option ${v===input.value?'chosen':''}" data-index="${i}" tabindex="-1"><span>${esc(v)}</span>${v===input.value?icon('check'):''}</button>`).join(''):`<div class="combo-empty">${query?'일치하는 항목이 없어요.<br>입력한 내용으로 이름을 만들어요.':'등록된 목록이 없어요.<br>직접 입력하거나 편집에서 추가하세요.'}</div>`;
@@ -262,31 +307,53 @@
     const type=state.type,result=N.build(state,type,date),m=meta[type];
     $('#result-title').textContent=type==='folder'?'완성된 폴더명':type==='project'?'완성된 프로젝트명':'완성된 파일명';
     $('#preview-badge').textContent=m.badge;
-    $('#filename').innerHTML=result.parts.map((p,i)=>`${i?'<span class="separator">_</span>':''}<span class="${p.value?'':'placeholder'}">${esc(p.display)}</span>`).join('')+`<span>${esc(result.ext)}</span>`;
+    $('#filename').innerHTML=result.parts.length?result.parts.map((p,i)=>`${i?'<span class="separator">_</span>':''}<span class="${p.value?'':'placeholder'}">${esc(p.display)}</span>`).join('')+`<span>${esc(result.ext)}</span>`:'<span class="placeholder">포함할 항목을 체크해 주세요.</span>';
     $('#result-length').textContent=`${Array.from(result.name).length}자 · ${result.byteLength} bytes`;
     $('#result-status').textContent=result.ready?'✓ 복사할 준비가 됐어요':result.errors[0];$('#result-status').classList.toggle('error',!result.ready);
-    $('#copy-button').disabled=!result.ready;$('#copy-button').innerHTML=`${icon('copy')}<span>${type==='folder'?'폴더명':type==='project'?'프로젝트명':'파일명'} 복사하기</span><span class="button-arrow">↗</span>`;
+    $('#copy-button').disabled=!result.ready||copyPending;$('#copy-button').innerHTML=`${icon('copy')}<span>${type==='folder'?'폴더명':type==='project'?'프로젝트명':'파일명'} 복사하기</span><span class="button-arrow">↗</span>`;
     const panel=$('#structure-panel');
     if(type==='folder'){
-      const brand=N.clean(state.values.brand)||'[브랜드명]',output=`${N.shortDate(date)}_${brand}_색보정`;
+      const output=N.outputFolderName(state,date);
       const cameras=[...new Set(state.cameras.map(N.clean).filter(Boolean))];
       panel.innerHTML=`<div class="structure-head"><h3>${icon('folder')}폴더 구조 미리보기</h3><span>자동 구성</span></div><div class="tree"><div class="tree-row root">${icon('folder')}<span>${esc(result.name)}</span></div><div class="tree-children"><div class="tree-row">${icon('folder')}<strong>01_camera</strong></div><div class="tree-children">${cameras.length?cameras.map(v=>`<div class="tree-row">${icon('folder')}<span>${esc(v)}</span></div>`).join(''):'<div class="tree-row file">기기를 선택하면 하위 폴더가 추가돼요</div>'}</div><div class="tree-row">${icon('folder')}<strong>02_audio</strong></div><div class="tree-row">${icon('folder')}<strong>98_project</strong></div><div class="tree-children"><div class="tree-row file">${icon('file')}<span>프리미어 프로젝트.prproj<span class="tree-note">프로젝트를 이곳에 저장하세요</span></span></div></div><div class="tree-row">${icon('folder')}<strong>99_output</strong></div><div class="tree-children"><div class="tree-row">${icon('folder')}<span>${esc(output)}<span class="tree-note">색보정 및 이름 수정을 마친 최종본 위치</span></span></div></div></div></div><button class="download-button" id="download-folders" ${result.ready?'':'disabled'}>${icon('download')}폴더 구조 다운로드 <span>(ZIP)</span></button><p class="structure-caption">빈 폴더만 생성해요. 프로젝트와 영상은 작업 후 저장해 주세요.</p>`;
       $('#download-folders').onclick=()=>{const current=N.build(state,'folder',date);if(!current.ready){toast(current.errors[0]);return;}const paths=N.folderPaths(state,date);if(paths.some(p=>p.split('/').some(segment=>new TextEncoder().encode(segment).length>240))){toast('기기명 또는 폴더명을 더 짧게 입력해 주세요.');return;}download(N.zipDirectories(paths),`${current.name}.zip`);addHistory(current.name);toast('촬영용 폴더 구조를 다운로드했어요.');};
     }else{
-      const formula=state.templates[type].map(k=>`(${esc(state.labels[k]||N.labels[k])})`).join('<span>_</span>');
-      const note=type==='project'?'프리미어에서 저장할 때 98_project 폴더를 선택하고, 만든 이름을 붙여넣으세요.':type==='color'?'99_output 안의 날짜_브랜드명_색보정 폴더에 최종 소스를 저장하세요.':'주소구와 B·H·C 코드, 버전을 함께 기록해 광고 소재를 구분하세요.';
-      panel.innerHTML=`<div class="structure-head"><h3>${icon('link')}이름 구성 규칙</h3><span>${state.templates[type].length}개 항목</span></div><div class="formula">${formula}</div><div class="detail-note">${icon('info')}<span>${note}</span></div>${state.templates[type].includes('version')?`<button class="version-step" id="next-version"><span>다음 버전으로 만들기</span><span>+1 → ${esc(N.increment(state.values.version)||'숫자 버전 입력')}</span></button>`:''}<p class="structure-caption">구분자는 밑줄(_) · 사용할 수 없는 문자는 - 로 정리해요.</p>`;
+      const formula=N.activeFields(state,type).map(k=>`(${esc(state.labels[k]||N.labels[k])})`).join('<span>_</span>');
+      const note=type==='project'?'프리미어에서 저장할 때 98_project 폴더를 선택하고, 만든 이름을 붙여넣으세요.':type==='color'?'99_output 안의 색보정 폴더에 최종 소스를 저장하세요.':'주소구와 B·H·C 코드, 버전을 함께 기록해 광고 소재를 구분하세요.';
+      panel.innerHTML=`<div class="structure-head"><h3>${icon('link')}이름 구성 규칙</h3><span>${N.activeFields(state,type).length}개 포함</span></div><div class="formula">${formula||'체크한 항목이 없습니다.'}</div><div class="detail-note">${icon('info')}<span>${note}</span></div>${N.activeFields(state,type).includes('version')?`<button class="version-step" id="next-version"><span>다음 버전으로 만들기</span><span>+1 → ${esc(N.increment(state.values.version)||'숫자 버전 입력')}</span></button>`:''}<p class="structure-caption">구분자는 밑줄(_) · 사용할 수 없는 문자는 - 로 정리해요.</p>`;
       if($('#next-version'))$('#next-version').onclick=()=>{const next=N.increment(state.values.version);if(!next){toast('v01처럼 숫자로 끝나는 버전을 입력해 주세요.');return;}state.values.version=next;persist();renderFields();renderResult();toast(`${next} 버전으로 변경했어요.`);};
     }
   }
-  function render(){renderTabs();$('#form-heading').textContent=state.type==='folder'?'기본 정보 선택':'파일 정보 선택';$('#form-intro').textContent=meta[state.type].intro;renderFields();renderCameras();renderExtension();renderResult();}
+  function render(){renderTabs();$('#form-heading').textContent=state.type==='folder'?'기본 정보 선택':'파일 정보 선택';$('#form-intro').textContent='각 항목 옆의 포함 체크를 해제하면 파일명에서 제외됩니다.';renderFields();renderCameras();renderExtension();renderResult();}
   function download(blob,name){const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),2000);}
-  function addHistory(name){state.history=[{name,type:state.type,time:Date.now()},...state.history.filter(h=>h.name!==name)].slice(0,20);persist();}
+  function addHistory(name,type=state.type){refreshHistory();state.history=N.recordName(state.history,name,type);return saveHistory();}
   async function copyText(text){
     try{if(!navigator.clipboard?.writeText)throw Error();await navigator.clipboard.writeText(text);return true;}
     catch(e){const prior=document.activeElement,area=document.createElement('textarea');area.value=text;area.style.cssText='position:fixed;top:0;left:0;opacity:0';($('#modal').open?$('#modal'):document.body).append(area);area.focus();area.select();let ok=false;try{ok=document.execCommand('copy');}catch(e){}area.remove();prior?.focus({preventScroll:true});if(!ok)toast('복사가 제한되어 있어요. 미리보기의 이름을 선택해 복사해 주세요.');return ok;}
   }
-  async function copyCurrent(){const result=N.build(state,state.type,date);if(!result.ready){toast(result.errors[0]);return;}if(await copyText(result.name)){addHistory(result.name);toast('이름을 클립보드에 복사했어요.');}}
+  async function copyAndRecord(name,type){
+    if(copyPending)return false;
+    copyPending=true;renderResult();
+    try{
+      if(!await copyText(name))return false;
+      const saved=addHistory(name,type);
+      toast(saved?'이름을 복사하고 제작 기록에 저장했습니다.':'복사했지만 기록 저장에 실패했습니다. 브라우저 저장 공간을 확인해 주세요.');
+      return true;
+    }finally{copyPending=false;renderResult();}
+  }
+  function showDuplicate(name,type,existing){
+    showModal('이미 제작한 제목입니다','같은 파일명이 제작 기록에 있습니다.',`<div class="duplicate-name">${esc(name)}</div><p class="settings-note">최초 기록: ${new Intl.DateTimeFormat('ko-KR',{timeZone:'Asia/Seoul',year:'numeric',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'}).format(existing.time)}<br>다시 복사해도 기록은 중복 추가되지 않습니다.</p><div class="duplicate-actions"><button class="outline-button" id="duplicate-cancel">취소</button><button class="green-button" id="duplicate-copy">다시 복사하기</button></div>`);
+    $('#duplicate-cancel').onclick=()=>$('#modal').close();
+    $('#duplicate-copy').onclick=async()=>{const b=$('#duplicate-copy');b.disabled=true;try{if(await copyAndRecord(name,type))$('#modal').close();}finally{if(b.isConnected)b.disabled=false;}};
+  }
+  async function requestCopy(name,type){
+    if(copyPending)return;
+    refreshHistory();
+    const existing=N.findRecorded(state.history,name);
+    if(existing){showDuplicate(name,type,existing);return;}
+    await copyAndRecord(name,type);
+  }
+  async function copyCurrent(){const result=N.build(state,state.type,date);if(!result.ready){toast(result.errors[0]);return;}await requestCopy(result.name,state.type);}
   function showModal(title,description,body){closePopovers();const modal=$('#modal');$('#modal-content').innerHTML=`<div class="modal-head"><div><h2>${title}</h2><p>${description}</p></div><button class="icon-button" id="close-modal" aria-label="닫기">${icon('close')}</button></div><div class="modal-body">${body}</div>`;$('#close-modal').onclick=()=>modal.close();if(!modal.open)modal.showModal();}
   function settingsFooter(){return `<div class="settings-foot"><p>변경 사항은 이 브라우저에 자동 저장돼요. 다른 기기에서는 설정 파일을 내보낸 뒤 가져오세요.</p><button class="outline-button" id="export-settings">설정 내보내기</button><button class="outline-button" id="import-settings">설정 가져오기</button><input id="import-file" type="file" accept="application/json,.json" hidden><button class="done-button" id="settings-done">편집 완료</button></div>`;}
   function openSettings(){
@@ -296,13 +363,19 @@
     if(settingsTab==='options'){
       content=`<div class="settings-controls"><label>편집할 드롭다운<select id="settings-key">${keys.map(k=>`<option value="${k}" ${k===settingsKey?'selected':''}>${esc(state.labels[k])}</option>`).join('')}</select></label><label>화면에 표시할 항목명<input id="settings-label" value="${esc(state.labels[settingsKey])}" maxlength="40"></label></div><p class="settings-note">항목을 직접 수정하거나 삭제하세요. 새 항목은 아래에서 추가할 수 있어요.</p><div class="list-editor">${state.options[settingsKey].map((v,i)=>`<div class="edit-row"><span>${String(i+1).padStart(2,'0')}</span><input data-edit-option="${i}" aria-label="${i+1}번째 선택 항목" value="${esc(v)}" maxlength="150"><button data-delete-option="${i}" aria-label="${esc(v)} 삭제">×</button></div>`).join('')||'<p class="settings-note">등록된 항목이 없어요. 아래에서 추가하세요.</p>'}</div><div class="add-row"><input id="new-option" placeholder="새 선택 항목 입력" aria-label="새 선택 항목" maxlength="150"><button class="green-button" id="add-option">+ 항목 추가</button></div>`;
     }else{
-      const fields=state.templates[settingsType],fixed=settingsType==='folder';
-      content=`<div class="settings-controls"><label>편집할 유형<select id="settings-type">${Object.entries(meta).map(([k,m])=>`<option value="${k}" ${k===settingsType?'selected':''}>${m.title}</option>`).join('')}</select></label><label>기본 규칙<button class="outline-button" id="restore-template">이 유형의 기본 구성 복원</button></label></div><p class="settings-note">${fixed?'폴더명은 날짜_브랜드명_촬영원본 형식으로 고정돼요. 촬영 기기는 선택 항목 관리에서 편집하세요.':'순서를 바꾸거나 필요 없는 드롭다운을 제거하세요. 아래에서 기존 항목과 새 드롭다운을 추가할 수 있어요.'}</p><div class="template-list">${fields.map((k,i)=>`<div class="template-row"><span class="row-number">${String(i+1).padStart(2,'0')}</span><strong>${esc(state.labels[k]||N.labels[k])}</strong>${fixed?'':`<div class="row-actions"><button data-move="${i}" data-direction="-1" aria-label="${esc(state.labels[k])} 앞으로 이동" ${i===0?'disabled':''}>↑</button><button data-move="${i}" data-direction="1" aria-label="${esc(state.labels[k])} 뒤로 이동" ${i===fields.length-1?'disabled':''}>↓</button><button data-remove-field="${i}" aria-label="${esc(state.labels[k])} 구성에서 제거" ${fields.length===1?'disabled':''}>×</button></div>`}</div>`).join('')}</div>${fixed?'':`<div class="template-add"><label class="settings-label" for="existing-field">기존 항목 추가</label><div class="add-row"><select id="existing-field" class="outline-button">${['date',...keys].filter(k=>k!=='camera'&&!fields.includes(k)).map(k=>`<option value="${k}">${esc(state.labels[k]||N.labels[k])}</option>`).join('')}</select><button class="green-button" id="add-existing">+ 구성에 추가</button></div></div><div class="template-add"><label class="settings-label" for="custom-label">새 드롭다운 만들기</label><div class="add-row"><input id="custom-label" placeholder="항목명 (예: 화면비)" maxlength="40"><button class="green-button" id="add-custom">+ 드롭다운 추가</button></div><label class="sr-only" for="custom-options">새 드롭다운의 선택 항목</label><textarea id="custom-options" placeholder="선택 항목을 한 줄에 하나씩 입력하세요.&#10;9x16&#10;16x9" maxlength="10000"></textarea><p>새 항목은 선택한 유형의 파일명 끝에 추가돼요. 선택 목록 없이 직접 입력만 사용해도 돼요.</p></div>`}`;
+      const fields=state.templates[settingsType],fixed=false;
+      content=`<div class="settings-controls"><label>편집할 유형<select id="settings-type">${Object.entries(meta).map(([k,m])=>`<option value="${k}" ${k===settingsType?'selected':''}>${m.title}</option>`).join('')}</select></label><label>기본 규칙<button class="outline-button" id="restore-template">이 유형의 기본 구성 복원</button></label></div><p class="settings-note">${fixed?'폴더명은 날짜_브랜드명_촬영원본 형식으로 고정돼요. 촬영 기기는 선택 항목 관리에서 편집하세요.':'순서를 바꾸거나 드롭다운을 추가·제거하세요. 잠시 제외할 때는 메인 화면의 포함 체크를 해제하세요. 폴더명 끝에는 촬영원본이 붙습니다.'}</p><div class="template-list">${fields.map((k,i)=>`<div class="template-row"><span class="row-number">${String(i+1).padStart(2,'0')}</span><strong>${esc(state.labels[k]||N.labels[k])}</strong>${fixed?'':`<div class="row-actions"><button data-move="${i}" data-direction="-1" aria-label="${esc(state.labels[k])} 앞으로 이동" ${i===0?'disabled':''}>↑</button><button data-move="${i}" data-direction="1" aria-label="${esc(state.labels[k])} 뒤로 이동" ${i===fields.length-1?'disabled':''}>↓</button><button data-remove-field="${i}" aria-label="${esc(state.labels[k])} 구성에서 제거" >×</button></div>`}</div>`).join('')}</div>${fixed?'':`<div class="template-add"><label class="settings-label" for="existing-field">기존 항목 추가</label><div class="add-row"><select id="existing-field" class="outline-button">${['date',...keys].filter(k=>k!=='camera'&&!fields.includes(k)).map(k=>`<option value="${k}">${esc(state.labels[k]||N.labels[k])}</option>`).join('')}</select><button class="green-button" id="add-existing">+ 구성에 추가</button></div></div><div class="template-add"><label class="settings-label" for="custom-label">새 드롭다운 만들기</label><div class="add-row"><input id="custom-label" placeholder="항목명 (예: 화면비)" maxlength="40"><button class="green-button" id="add-custom">+ 드롭다운 추가</button></div><label class="sr-only" for="custom-options">새 드롭다운의 선택 항목</label><textarea id="custom-options" placeholder="선택 항목을 한 줄에 하나씩 입력하세요.&#10;9x16&#10;16x9" maxlength="10000"></textarea><p>새 항목은 선택한 유형의 파일명 끝에 추가돼요. 선택 목록 없이 직접 입력만 사용해도 돼요.</p></div>`}`;
     }
     showModal('드롭다운 편집','우리 팀이 자주 쓰는 항목과 이름 구성을 관리하세요.',tabs+content+settingsFooter());
     $('#options-tab').onclick=()=>{settingsTab='options';openSettings();};$('#template-tab').onclick=()=>{settingsTab='template';openSettings();};
     $('#settings-done').onclick=()=>{$('#modal').close();render();toast('드롭다운 설정을 저장했어요.');};
-    if(settingsTab==='options')bindOptionEditor();else bindTemplateEditor();bindSettingsFiles();
+    if(settingsTab==='options'){
+      bindOptionEditor();
+      if(settingsKey.startsWith('custom_')){
+        const b=document.createElement('button');b.className='text-button danger-text';b.textContent='이 드롭다운 전체 삭제';b.id='delete-custom-dropdown';$('#add-option').parentElement.after(b);
+        b.onclick=()=>{if(!window.confirm('이 드롭다운을 모든 이름 유형에서 삭제할까요?'))return;const key=settingsKey;for(const type of Object.keys(meta)){state.templates[type]=state.templates[type].filter(k=>k!==key);delete state.included[type][key];}delete state.options[key];delete state.values[key];delete state.labels[key];settingsKey='brand';settingsChanged();openSettings();toast('드롭다운을 삭제했습니다.');};
+      }
+    }else bindTemplateEditor();bindSettingsFiles();
   }
   function settingsChanged(){persist();render();}
   function bindOptionEditor(){
@@ -315,23 +388,36 @@
   }
   function bindTemplateEditor(){
     $('#settings-type').onchange=e=>{settingsType=e.target.value;openSettings();};
-    $('#restore-template').onclick=()=>{state.templates[settingsType]=N.clone(N.templates[settingsType]);settingsChanged();openSettings();toast('기본 이름 구성을 복원했어요.');};
+    $('#restore-template').onclick=()=>{state.templates[settingsType]=N.clone(N.templates[settingsType]);state.included[settingsType]={};settingsChanged();openSettings();toast('기본 이름 구성을 복원했어요.');};
     $$('[data-move]').forEach(b=>b.onclick=()=>{const i=Number(b.dataset.move),next=i+Number(b.dataset.direction),arr=state.templates[settingsType];if(next<0||next>=arr.length)return;[arr[i],arr[next]]=[arr[next],arr[i]];settingsChanged();openSettings();});
-    $$('[data-remove-field]').forEach(b=>b.onclick=()=>{if(state.templates[settingsType].length<=1)return;state.templates[settingsType].splice(Number(b.dataset.removeField),1);settingsChanged();openSettings();});
-    if($('#add-existing'))$('#add-existing').onclick=()=>{const key=$('#existing-field').value;if(!key)return;if(state.templates[settingsType].length>=20){toast('이름 구성은 최대 20개 항목까지 가능해요.');return;}state.templates[settingsType].push(key);settingsChanged();openSettings();};
-    if($('#add-custom'))$('#add-custom').onclick=()=>{const label=$('#custom-label').value.trim(),values=[...new Set($('#custom-options').value.split('\n').map(v=>v.trim()).filter(Boolean))];if(!label){toast('새 드롭다운의 항목명을 입력해 주세요.');return;}if(Object.keys(state.options).length>=60||state.templates[settingsType].length>=20){toast('드롭다운 개수 제한에 도달했어요.');return;}if(values.length>200||values.some(v=>v.length>150)){toast('선택 항목은 200개 이하, 각 150자 이하로 입력해 주세요.');return;}const key=`custom_${Date.now()}_${Math.floor(Math.random()*10000)}`;state.options[key]=values;state.labels[key]=label;state.values[key]=values[0]||'';state.templates[settingsType].push(key);settingsChanged();openSettings();toast('새 드롭다운을 추가했어요.');};
+    $$('[data-remove-field]').forEach(b=>b.onclick=()=>{state.templates[settingsType].splice(Number(b.dataset.removeField),1);settingsChanged();openSettings();});
+    if($('#add-existing'))$('#add-existing').onclick=()=>{const key=$('#existing-field').value;if(!key)return;if(state.templates[settingsType].length>=20){toast('이름 구성은 최대 20개 항목까지 가능해요.');return;}state.templates[settingsType].push(key);state.included[settingsType][key]=true;settingsChanged();openSettings();};
+    if($('#add-custom'))$('#add-custom').onclick=()=>{const label=$('#custom-label').value.trim(),values=[...new Set($('#custom-options').value.split('\n').map(v=>v.trim()).filter(Boolean))];if(!label){toast('새 드롭다운의 항목명을 입력해 주세요.');return;}if(Object.keys(state.options).length>=60||state.templates[settingsType].length>=20){toast('드롭다운 개수 제한에 도달했어요.');return;}if(values.length>200||values.some(v=>v.length>150)){toast('선택 항목은 200개 이하, 각 150자 이하로 입력해 주세요.');return;}const key=`custom_${Date.now()}_${Math.floor(Math.random()*10000)}`;state.options[key]=values;state.labels[key]=label;state.values[key]=values[0]||'';state.templates[settingsType].push(key);state.included[settingsType][key]=true;settingsChanged();openSettings();toast('새 드롭다운을 추가했어요.');};
   }
   function bindSettingsFiles(){
-    $('#export-settings').onclick=()=>{const data={format:'baroyam-naming-settings',version:1,options:state.options,labels:state.labels,templates:state.templates};download(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}),`바로얌_파일명설정_${N.shortDate(N.today())}.json`);toast('드롭다운 설정을 내보냈어요.');};
+    $('#export-settings').onclick=()=>{const data={format:'baroyam-naming-settings',version:2,schemaVersion:2,options:state.options,labels:state.labels,templates:state.templates,included:state.included};download(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}),`바로얌_파일명설정_${N.shortDate(N.today())}.json`);toast('드롭다운 설정을 내보냈어요.');};
     $('#import-settings').onclick=()=>$('#import-file').click();
-    $('#import-file').onchange=async e=>{const file=e.target.files[0];if(!file)return;try{if(file.size>200000)throw Error('설정 파일은 200KB 이하만 가져올 수 있어요.');const obj=JSON.parse(await file.text());if(obj.format!=='baroyam-naming-settings'||obj.version!==1)throw Error('바로얌 파일명 설정 파일을 선택해 주세요.');const incoming=N.validateSettings(obj);if(!window.confirm('현재 드롭다운 목록과 이름 구성을 가져온 설정으로 바꿀까요? 최근 기록은 유지됩니다.'))return;const history=state.history,type=state.type;state=incoming;state.history=history;state.type=type;persist();render();openSettings();toast('설정 파일을 가져왔어요.');}catch(err){toast(err instanceof SyntaxError?'설정 파일의 JSON 형식이 올바르지 않아요.':err.message);}};
+    $('#import-file').onchange=async e=>{const file=e.target.files[0];if(!file)return;try{if(file.size>200000)throw Error('설정 파일은 200KB 이하만 가져올 수 있어요.');const obj=JSON.parse(await file.text());if(obj.format!=='baroyam-naming-settings'||![1,2].includes(obj.version))throw Error('바로얌 파일명 설정 파일을 선택해 주세요.');const incoming=N.validateSettings(obj);if(!window.confirm('현재 드롭다운 목록과 이름 구성을 가져온 설정으로 바꿀까요? 최근 기록은 유지됩니다.'))return;const history=state.history,type=state.type;state=incoming;state.history=history;state.type=type;persist();render();openSettings();toast('설정 파일을 가져왔어요.');}catch(err){toast(err instanceof SyntaxError?'설정 파일의 JSON 형식이 올바르지 않아요.':err.message);}};
   }
   function openHistory(){
-    showModal('최근 만든 이름','복사하거나 폴더 구조를 다운로드한 이름을 최대 20개까지 보관해요.',state.history.length?`<div>${state.history.map((h,i)=>`<div class="history-item"><div><small>${meta[h.type].title} · ${new Intl.DateTimeFormat('ko-KR',{timeZone:'Asia/Seoul',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'}).format(h.time)}</small><p>${esc(h.name)}</p></div><button class="icon-button" data-history="${i}" aria-label="${esc(h.name)} 복사">${icon('copy')}</button></div>`).join('')}</div><div class="settings-foot"><p>기록은 이 브라우저에서만 볼 수 있어요.</p><button class="outline-button" id="clear-history">기록 비우기</button><button class="done-button" id="history-done">닫기</button></div>`:'<div class="history-empty">아직 만든 이름이 없어요.<br>이름을 복사하면 여기에 기록돼요.</div>');
-    $$('[data-history]').forEach(b=>b.onclick=async()=>{if(await copyText(state.history[Number(b.dataset.history)].name))toast('이름을 다시 복사했어요.');});
-    if($('#clear-history'))$('#clear-history').onclick=()=>{if(!window.confirm('최근 만든 이름 기록을 모두 비울까요?'))return;state.history=[];persist();openHistory();};if($('#history-done'))$('#history-done').onclick=()=>$('#modal').close();
+    refreshHistory();historyQuery='';historyPage=0;
+    showModal('제작 기록','복사한 이름은 자동 기록되며, 같은 이름을 다시 복사하면 중복 안내가 표시됩니다.',`<label class="sr-only" for="history-search">제작 기록 검색</label><input class="history-search" id="history-search" placeholder="파일명으로 기록 검색"><p class="settings-note" id="history-summary"></p><div id="history-list"></div><div class="history-pagination" id="history-pagination"></div><div class="settings-foot"><p>기록은 이 브라우저에 보관됩니다. 다른 작업자의 기록과 공유되지는 않습니다.</p><button class="outline-button" id="clear-history">기록 비우기</button><button class="done-button" id="history-done">닫기</button></div>`);
+    $('#history-search').oninput=e=>{historyQuery=e.target.value;historyPage=0;renderHistoryList();};
+    $('#clear-history').onclick=()=>{if(!window.confirm('제작 기록을 모두 비울까요? 저장된 이름의 중복 확인 기록도 함께 삭제됩니다.'))return;state.history=[];saveHistory();historyPage=0;renderHistoryList();};
+    $('#history-done').onclick=()=>$('#modal').close();renderHistoryList();
   }
-  function openGuide(){showModal('파일명 규칙 안내','기본 구성은 아래 규칙을 따르며, 드롭다운 편집에서 이름 구성을 변경할 수 있어요.',`<div class="guide-card"><h3>01. 촬영 폴더</h3><p><code>(날짜)_(브랜드명)_촬영원본</code><br>01_camera / 02_audio / 98_project / 99_output<br>01_camera 안에 선택한 기기명 폴더가 생성돼요.<br>99_output 안에 (날짜)_(브랜드명)_색보정 폴더가 생성돼요.</p></div><div class="guide-card"><h3>02. 색보정 완료 파일</h3><p><code>(브랜드명)_(촬영 유형)_(중간설명)_(최종설명)_(버전)</code><br>인서트 · 시즐 · 연출 · 후킹 · 상황극 · 배우연기 · ai활용</p></div><div class="guide-card"><h3>03. 프리미어 프로젝트</h3><p><code>(날짜)_(브랜드명)_(제목)_(버전)_(작업자)</code><br>실제 .prproj 파일은 프리미어에서 98_project 폴더에 저장하세요.</p></div><div class="guide-card"><h3>04. 메타 업로드용 파일</h3><p><code>(날짜)_(브랜드명)_(제목)_(주소구)_(B 코드)_(H 코드)_(C 코드)_(버전)_(작업자)</code></p></div><div class="guide-bottom">날짜는 한국 시간 기준 오늘이 기본값이며, 2026년 10월 19일은 <strong>261019</strong>로 표시돼요.<br>각 항목 안의 밑줄과 파일명에 사용할 수 없는 문자( / &#92; : * ? &quot; &lt; &gt; | )는 - 로 바꿔요.<br>확장자는 필요한 경우에만 선택하세요. 이 도구는 이름과 빈 폴더 구조를 만들며 실제 영상의 이름은 직접 바꿔야 해요.<br>드롭다운과 기록은 브라우저별로 저장돼요. 팀원과 목록을 맞추려면 설정 내보내기·가져오기를 이용하세요.</div>`);}
+  function renderHistoryList(){
+    if(!$('#history-list'))return;
+    const matches=state.history.filter(h=>h.name.toLocaleLowerCase().includes(historyQuery.toLocaleLowerCase())),pageSize=50;
+    const pages=Math.max(1,Math.ceil(matches.length/pageSize));historyPage=Math.min(historyPage,pages-1);
+    const items=matches.slice(historyPage*pageSize,(historyPage+1)*pageSize);
+    $('#history-summary').textContent=`전체 ${state.history.length}개 · 검색 결과 ${matches.length}개`;
+    $('#history-list').innerHTML=items.length?items.map((h,i)=>`<div class="history-item"><div><small>${meta[h.type].title} · ${new Intl.DateTimeFormat('ko-KR',{timeZone:'Asia/Seoul',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'}).format(h.lastCopied)} · ${h.copies}회</small><p>${esc(h.name)}</p></div><button class="icon-button" data-history="${i}" aria-label="${esc(h.name)} 복사">${icon('copy')}</button></div>`).join(''):'<div class="history-empty">'+(historyQuery?'검색 결과가 없습니다.':'아직 제작 기록이 없습니다.<br>이름을 복사하면 자동 기록됩니다.')+'</div>';
+    $$('[data-history]').forEach(b=>b.onclick=()=>{const h=items[Number(b.dataset.history)];requestCopy(h.name,h.type);});
+    $('#history-pagination').innerHTML=pages>1?`<button class="outline-button" id="history-prev" ${historyPage===0?'disabled':''}>이전</button><span>${historyPage+1} / ${pages}</span><button class="outline-button" id="history-next" ${historyPage===pages-1?'disabled':''}>다음</button>`:'';
+    if($('#history-prev'))$('#history-prev').onclick=()=>{historyPage--;renderHistoryList();};if($('#history-next'))$('#history-next').onclick=()=>{historyPage++;renderHistoryList();};
+  }
+  function openGuide(){showModal('파일명 규칙 안내','체크한 항목만 이름에 포함됩니다. 아래는 모든 항목을 체크한 기본 구성입니다.',`<div class="guide-card"><h3>01. 촬영 폴더</h3><p><code>(날짜)_(브랜드명)_촬영원본</code><br>01_camera / 02_audio / 98_project / 99_output<br>01_camera 안에 선택한 기기명 폴더가 생성돼요.<br>99_output의 색보정 폴더명에도 체크한 항목만 반영됩니다.</p></div><div class="guide-card"><h3>02. 색보정 완료 파일</h3><p><code>(브랜드명)_(촬영 유형)_(중간설명)_(최종설명)_(버전)</code><br>인서트 · 시즐 · 연출 · 후킹 · 상황극 · 배우연기 · ai활용</p></div><div class="guide-card"><h3>03. 프리미어 프로젝트</h3><p><code>(날짜)_(브랜드명)_(제목)_(버전)_(작업자)</code><br>실제 .prproj 파일은 프리미어에서 98_project 폴더에 저장하세요.</p></div><div class="guide-card"><h3>04. 메타 업로드용 파일</h3><p><code>(날짜)_(브랜드명)_(제목)_(주소구)_(B 코드)_(H 코드)_(C 코드)_(버전)_(작업자)</code></p></div><div class="guide-bottom">날짜는 한국 시간 기준 오늘이 기본값이며, 2026년 10월 19일은 <strong>261019</strong>로 표시돼요.<br>각 항목 안의 밑줄과 파일명에 사용할 수 없는 문자( / &#92; : * ? &quot; &lt; &gt; | )는 - 로 바꿔요.<br>확장자는 필요한 경우에만 선택하세요. 이 도구는 이름과 빈 폴더 구조를 만들며 실제 영상의 이름은 직접 바꿔야 해요.<br>드롭다운과 기록은 브라우저별로 저장돼요. 팀원과 목록을 맞추려면 설정 내보내기·가져오기를 이용하세요.</div>`);}
   hydrateIcons();
   $('#home-nav').onclick=()=>{if($('#modal').open)$('#modal').close();window.scrollTo({top:0,behavior:'smooth'});};
   $('#history-nav').onclick=openHistory;
@@ -343,10 +429,11 @@
   document.addEventListener('keydown',e=>{if(e.key==='Escape')closePopovers();if((e.metaKey||e.ctrlKey)&&e.key==='Enter'&&!e.isComposing&&!$('#modal').open){e.preventDefault();copyCurrent();}});
   $('#modal').addEventListener('click',e=>{if(e.target===$('#modal')){const rect=$('#modal').getBoundingClientRect();if(e.clientX<rect.left||e.clientX>rect.right||e.clientY<rect.top||e.clientY>rect.bottom)$('#modal').close();}});
   $('#modal').addEventListener('close',()=>{render();});
-  window.addEventListener('storage',e=>{if(e.key===KEY)toast('다른 탭에서 설정이 변경됐어요. 새로고침하면 반영돼요.');});
+  window.addEventListener('storage',e=>{if(e.key===HISTORY_KEY||e.key===null){try{state.history=e.key===null?[]:N.normalizeHistory(JSON.parse(e.newValue||'[]'));}catch(err){historyStorageBroken=true;}updateSaveStatus();renderHistoryList();}if(e.key===KEY)toast('다른 탭에서 설정이 변경됐어요. 새로고침하면 반영돼요.');});
   render();persist();if(loadBroken)toast('저장된 설정을 읽지 못해 기본 목록으로 시작했어요.');
 })();
 
 </script>
 </body>
 </html>
+
